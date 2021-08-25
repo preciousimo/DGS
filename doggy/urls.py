@@ -20,6 +20,5 @@ from . import views
 app_name = 'doggy'
  
 urlpatterns = [
-    path('', views.home, name='HomePage'),
-    path('home/', views.home, name='HomePage'),
+    path('', views.index, name='HomePage'),
 ]
